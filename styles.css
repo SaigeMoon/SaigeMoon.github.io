@@ -45,7 +45,7 @@ html {
 #introP {
     font-size:var(--fontsizeBody);
     text-align: right;
-    margin-left: 55%;
+    margin-left: 50%;
 }
 
 #navbar {
