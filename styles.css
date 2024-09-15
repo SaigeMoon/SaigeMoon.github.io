@@ -33,7 +33,7 @@ html {
     width: 20%;
     float: right;
     margin-left: 1em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     margin-right: 4em;
 }
 
@@ -45,7 +45,7 @@ html {
 #introP {
     font-size:var(--fontsizeBody);
     text-align: right;
-    margin-left: 65%;
+    margin-left: 55%;
 }
 
 #navbar {
