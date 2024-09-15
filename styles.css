@@ -110,10 +110,10 @@ flex-shrink: 0;
 }
 
 #title2{
-    margin-left: 10%;
+    margin-left: 0%;
     margin-top: 5em;
     text-align: right;
-    margin-right: 28%;
+    margin-right: 16%;
     font-size: var(--fontsizeSectionTitle);
 }
 
