@@ -18,6 +18,7 @@ html {
     align-items: center; 
     max-width: var(--contentMaxWidth);
     margin:0px auto;
+    font-weight: 600;
 }
 
 #title {
@@ -77,6 +78,7 @@ html {
 
 #options a:hover {
     color: rgb(0, 0, 0);
+    transition: 0.6s ease-out;
 }
 
 .content {
@@ -193,4 +195,55 @@ flex-shrink: 0;
     width:75em;
     height:35em;
     margin-left: 5%;
+}
+
+#footer-container{
+    background-color:rgb(49, 87, 44);
+    padding-bottom: 4rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#footerTitle{
+    width:80%;
+    height:20vh;
+    background-color:rgb(49, 87, 44);
+    color:white;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer a{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    text-decoration: none;
+}
+.footer2 a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    text-decoration: none;
+}
+.footer3 a{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:rgb(187, 187, 187);
+    transition: 0.3s ease-out;
+}
+.footer2 a:hover{
+    color:rgb(187, 187, 187);
+    transition: 0.3s ease-out;
+}
+.footer3 a:hover{
+    color:rgb(187, 187, 187);
+    transition: 0.3s ease-out;
 }
