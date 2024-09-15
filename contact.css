@@ -1,0 +1,53 @@
+html {
+    font-family: Poppins, Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar {
+    margin-right: 1em;
+}
+
+#topLine{
+    width: 35%;
+    color:rgb(49, 87, 44);
+    background-color:rgb(49, 87, 44);
+    float: left;
+
+}
+
+#options {
+    color: rgb(49, 87, 44);
+}
+
+#options a:link, #options a:visited {
+    color: rgb(49, 87, 44);
+    text-decoration: none;
+}
+
+#options a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#title {
+    color: rgb(49, 87, 44);
+    text-align: center;
+    font-size: 130%;
+    font-weight: 600;
+    flex: 1;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+section{
+    display: flex;
+    flex-direction: column
+}

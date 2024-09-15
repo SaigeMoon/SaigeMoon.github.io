@@ -1,0 +1,214 @@
+
+html {
+    font-family: Poppins, Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    color: rgb(49, 87, 44);
+    text-align: center;
+    font-size: 130%;
+    font-weight: 600;
+    flex: 1;
+    text-decoration: none;
+}
+
+#headshot {
+    width: 10em;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 3em;
+    margin-right: 4em;
+}
+
+#intro {
+    text-align: right;
+    font-size: 110%;
+}
+
+#introP {
+    font-size: 70%;
+    text-align: justify;
+    margin-left: 65%;
+}
+
+#navbar {
+    margin-right: 1em;
+}
+
+#topLine{
+    width: 35%;
+    color:rgb(49, 87, 44);
+    background-color:rgb(49, 87, 44);
+    float: left;
+
+}
+
+#options {
+    color: rgb(49, 87, 44);
+}
+
+#options a:link, #options a:visited {
+    color: rgb(49, 87, 44);
+    text-decoration: none;
+}
+
+#options a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: rgb(49, 87, 44);
+    width: 100%;
+    padding-top: 3em;
+}
+
+.text {
+    flex: 1;
+}
+
+#secondPara{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+}
+
+#picsOne{
+    margin-top: 5em;
+    width: 20em;
+    height:25em;
+    margin-left: 5%;
+}
+
+#title2{
+    margin-left: 10%;
+    margin-top: 5em;
+    text-align: right;
+    margin-right: 28%;
+    font-size: 90%;
+}
+
+#sTitle2{
+    font-size: 25%;
+    text-align: left;
+    margin-left: 30%;
+
+}
+#para2{
+    font-size: 70%;
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+#title3{
+    margin-top: 7em;
+    text-align: left;
+    margin-left: 20%;
+    font-size: 90%;
+}
+
+#sTitle3{
+    font-size: 50%;
+    text-align: left;
+    margin-left: 20%;
+}
+#para3{
+    font-size: 70%;
+    text-align: justify;
+    margin-right: 25%;
+    margin-left: 20%;
+}
+
+#title4{
+    text-align: right;
+    margin-right: 81%;
+    font-size: 90%;
+}
+
+#sTitle4{
+    font-size: 50%;
+    text-align: left;
+    margin-left: 0%;
+}
+#para4{
+    font-size: 70%;
+    text-align: justify;
+    margin-right: 20%;
+}
+#exerciseTitle{
+    margin-top: 7em;
+    text-align: right;
+    margin-right: 20%;
+    font-size: 90%;
+}
+#exerciseTitle + ul li{
+    font-size: 70%;
+    text-align: left;
+    margin-left: 70%;
+    margin-right: 5%;
+}
+#projectTitle{
+    margin-top: 7em;
+    text-align: right;
+    margin-right: 20%;
+    font-size: 90%;
+}
+#projectTitle + ol li{
+    font-size: 70%;
+    text-align: left;
+    margin-left: 70%;
+    margin-right: 5%;
+}
+#practicalsTitle{
+    margin-top: 7em;
+    text-align: right;
+    margin-right: 20%;
+    font-size: 90%;
+}
+#practicalsTitle + ul li{
+    font-size: 70%;
+    text-align: left;
+    margin-left: 70%;
+    margin-right: 5%;
+}
+#secondLine{
+    margin-top: 6em;
+    height: 5em;
+    width:40em;
+    float: right;
+    background-color:rgb(49, 87, 44);
+    color:rgb(49, 87, 44);
+}
+
+#thirdPara{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+#picsTwo{
+    height: 18em;
+    width:31em;
+    margin-top: 5em;
+    margin-right: 5%;
+}
+#picsThree{
+    margin-top: 10em;
+    width:65em;
+    height:25em;
+    margin-left: 5%;
+}
