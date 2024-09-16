@@ -48,6 +48,12 @@ html {
     text-align: right;
     margin-left: 50%;
 }
+nav{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
 
 #navbar {
     margin-right: 1em;
@@ -210,12 +216,12 @@ flex-shrink: 0;
 #footerTitle{
     padding-top: 4rem;
     width:90%;
-    height:20vh;
     background-color:rgb(49, 87, 44);
     color:white;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-right: 8rem;
     font-size: 100%;
 }
 .footer a{
