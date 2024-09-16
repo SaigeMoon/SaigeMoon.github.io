@@ -5,11 +5,11 @@
     --fontsizeBody: 120%;
     --contentMaxWidth: 3800px;
 }
-
-
 html {
     font-family: Poppins, Arial, sans-serif;
 }
+
+
 
 @media screen and (min-width: 480px) {
 
