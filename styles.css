@@ -4,13 +4,14 @@
     --fontsizesubTitle: 130%;
     --fontsizeBody: 120%;
     --contentMaxWidth: 3800px;
-
 }
 
 
 html {
     font-family: Poppins, Arial, sans-serif;
 }
+
+@media screen and (min-width: 480px) {
 
 .header {
     display: flex;
@@ -57,7 +58,6 @@ nav{
 
 #navbar {
     margin-right: 1em;
-
 }
 
 #topLine{
@@ -65,7 +65,6 @@ nav{
     color:rgb(49, 87, 44);
     background-color:rgb(49, 87, 44);
     float: left;
-
 }
 
 #allContent{
@@ -265,4 +264,5 @@ flex-shrink: 0;
     color:rgb(187, 187, 187);
     transition: 0.3s ease-in-out;
     font-size: 95%;
+}
 }
