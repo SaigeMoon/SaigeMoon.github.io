@@ -103,7 +103,7 @@ nav{
     flex: 1;
 }
 
-#secondPara{
+.secondPara{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -111,7 +111,7 @@ align-items: center;
 flex-shrink: 0;
 }
 
-#picsOne{
+.picsOne{
     margin-top: 5em;
     width: 30em;
     height:35em;
